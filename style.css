@@ -19,6 +19,7 @@ body{
      font-family: 'Courier New', Courier, monospace;
      padding-left: 10px;
      border-left: 3px solid pink;
+    
      font-size: 3em;
      
  }
@@ -37,6 +38,7 @@ body{
  .half-width img{ width: 60%;
     padding-left: 100px;
     margin-top: 20px;
+    border-radius: 120px;
  }
  
 
@@ -117,10 +119,24 @@ body{
 
 }
 
+
+.header5{
+    color: navy;
+
+   margin-top: 80px;
+   font-family: 'Courier New', Courier, monospace;
+   text-align: center;
+   
+
+   font-size: 2em;
+
+}
+
+
 .borderx{
-    border-left: 3px solid pink;
+    border-right: 5px solid navy;
     padding-left: 30px;
-    box-shadow: 5px 5px 10px #71d8df;
+    box-shadow: -5px 5px 10px pink;
    
 }
 
