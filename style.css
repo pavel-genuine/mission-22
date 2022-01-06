@@ -1,0 +1,141 @@
+
+body{
+    font-family: 'Voltaire', sans-serif;
+    
+ }
+
+ .half-width p{
+     font-size: 1.5em;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+ }
+
+
+ .contrast-color{
+    color: rgb(15, 196, 165);
+}
+ .header{
+     
+     margin-top: 80px;
+     font-family: 'Courier New', Courier, monospace;
+     padding-left: 10px;
+     border-left: 3px solid pink;
+     font-size: 3em;
+     
+ }
+
+ 
+ section{
+     display: flex;
+     margin-bottom: 80px;
+     margin-left: 150px;
+ 
+ }
+ .half-width{     width: 50%; 
+  
+ }
+ 
+ .half-width img{ width: 60%;
+    padding-left: 100px;
+    margin-top: 20px;
+ }
+ 
+
+ 
+ .link-button{
+ background-color:  rgb(15, 196, 165);
+ font-size: 1.2em;                        ;
+ color: white;
+ padding: 10px 20px;
+ text-decoration: none;
+ border-radius: 5px;
+ margin-top: 20px;
+ box-shadow: 10px 10px 40px rgb(206, 126, 139);
+ }
+
+ #discrete-text{
+     margin-left: 150px;
+     margin-bottom: 70px;
+ }
+
+ .header2 p{
+     text-align: center;
+     color: navy;
+     margin-top: 50px;
+    
+ }
+ 
+
+ .my-mission{
+    display: flex;
+
+ }
+
+ .my-mission img{
+     width: 60%;
+ }
+
+
+ .my-mission-box{
+    padding: 30px 20px;
+    border-radius: 10px;
+ }
+
+#mission{
+     background-color: rgb(208, 231, 235);
+ }
+
+ #vision{
+     background-color: rgb(240, 212, 240);
+     margin:0 75px ;
+ }
+
+ #goals{
+     background-color: rgb(241, 240, 240);
+     margin-right: 100px;
+ }
+
+
+ .header3{
+
+    margin-top: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    
+
+    font-size: 2em;
+
+ }
+
+
+.header4{
+    margin-top: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    
+    font-size: 2em;
+
+}
+
+
+ footer{
+     text-align: center;
+     color: white;
+     background-color: black;
+     padding-top: 10px;
+     padding-bottom: 10px;
+ }
+ h1 footer{}
+     font-family:initial
+ }
+
+ span h1{
+     color: orangered;
+ }
+ 
+ 
+ .display-inline
+ {
+     display: flex;
+ }
+ 
+ #ankor{
+     margin-left: 40px;
+ }
