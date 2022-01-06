@@ -51,7 +51,7 @@ body{
  text-decoration: none;
  border-radius: 5px;
  margin-top: 20px;
- box-shadow: 10px 10px 40px rgb(206, 126, 139);
+ box-shadow: -5px 5px 10px rgb(206, 126, 139);
  }
 
  #discrete-text{
@@ -136,7 +136,8 @@ body{
 .borderx{
     border-right: 5px solid navy;
     padding-left: 30px;
-    box-shadow: -5px 5px 10px pink;
+    box-shadow: -10px 10px 25px pink;
+    border-radius: 5px;
    
 }
 
