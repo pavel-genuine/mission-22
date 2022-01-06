@@ -11,10 +11,10 @@ body{
 
 
  .contrast-color{
-    color: rgb(15, 196, 165);
+    color: #71d8df;
 }
  .header{
-     
+     color: navy;
      margin-top: 80px;
      font-family: 'Courier New', Courier, monospace;
      padding-left: 10px;
@@ -42,9 +42,9 @@ body{
 
  
  .link-button{
- background-color:  rgb(15, 196, 165);
+ background-color: #71d8df;
  font-size: 1.2em;                        ;
- color: white;
+ color: rgb(0, 0, 0);
  padding: 10px 20px;
  text-decoration: none;
  border-radius: 5px;
@@ -96,9 +96,11 @@ body{
 
 
  .header3{
+     color: navy;
 
     margin-top: 80px;
     font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
     
 
     font-size: 2em;
@@ -109,12 +111,34 @@ body{
 .header4{
     margin-top: 40px;
     font-family: 'Courier New', Courier, monospace;
+    color: navy;
     
     font-size: 2em;
 
 }
 
+.borderx{
+    border-left: 3px solid pink;
+    padding-left: 30px;
+    box-shadow: 5px 5px 10px #71d8df;
+   
+}
 
+li{
+    display: inline;
+    padding: 30px 60px;
+    background-color:#71d8df ;
+    list-style: none;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: 1.3em;
+}
+
+ul{
+    display: flex;
+}
+ 
  footer{
      text-align: center;
      color: white;
@@ -126,16 +150,5 @@ body{
      font-family:initial
  }
 
- span h1{
-     color: orangered;
- }
+
  
- 
- .display-inline
- {
-     display: flex;
- }
- 
- #ankor{
-     margin-left: 40px;
- }
