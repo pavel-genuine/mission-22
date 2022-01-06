@@ -1,6 +1,9 @@
 
 body{
-    font-family: 'Voltaire', sans-serif;
+  
+    margin-left: 0px;
+    margin-right:0px;
+    margin-bottom: 0px;
     
  }
 
@@ -16,33 +19,33 @@ body{
  .header{
      color: navy;
      margin-top: 80px;
-     font-family: 'Courier New', Courier, monospace;
+     font-family: 'Luxurious Roman', cursive;
+     
      padding-left: 10px;
      border-left: 3px solid pink;
     
-     font-size: 3em;
+     font-size: 3.5em;
      
  }
 
  
- section{
+ .section-1-5{
      display: flex;
      margin-bottom: 80px;
      margin-left: 150px;
- 
  }
- .half-width{     width: 50%; 
-  
+
+
+ .half-width{width: 50%; 
  }
  
  .half-width img{ width: 60%;
-    padding-left: 100px;
+    margin-left: 60px;
     margin-top: 20px;
     
  }
  
 
- 
  .link-button{
  background-color: #71d8df;
  font-size: 1.2em;                        ;
@@ -59,16 +62,18 @@ body{
      margin-bottom: 70px;
  }
 
- .header2 p{
+ .my-mission-header{
      text-align: center;
      color: navy;
-     margin-top: 50px;
+     margin-top: 30px;
+     font-size: 2.5em;
     
  }
  
 
  .my-mission{
     display: flex;
+    margin-left: 150px;
 
  }
 
@@ -78,7 +83,7 @@ body{
 
 
  .my-mission-box{
-    padding: 30px 20px;
+    padding: 40px 20px ;
     border-radius: 10px;
  }
 
@@ -88,29 +93,67 @@ body{
 
  #vision{
      background-color: rgb(240, 212, 240);
-     margin:0 75px ;
+     margin:0 40px ;
  }
 
  #goals{
      background-color: rgb(241, 240, 240);
-     margin-right: 100px;
+     margin-right: 150px;
  }
 
+.develop{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-right:50px ;
 
- .header3{
-     color: navy;
-
-    margin-top: 80px;
+}
+ .develop-header{
+    color: navy;
+    margin-top: 30px;
     font-family: 'Courier New', Courier, monospace;
-    margin-left: 20px;
-    
-
-    font-size: 2em;
-
+    font-size: 2.5em;
  }
 
+ .develop-div{
+    width: 50%; 
+ }
 
-.header4{
+ .develop-div img{ 
+    width: 60%;
+    margin-left: 60px;
+    margin-top: 20px;
+ }
+
+ .develop-div p{
+    font-size: 1.5em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    padding-right: 50px;
+}
+
+.glbl-cmnty{    display: flex;
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-bottom:100px ;
+}
+
+.glbl-cmnty-div{
+    width: 50%;
+}
+
+.glbl-cmnty-div p{
+    font-size: 1.5em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.glbl-cmnty-div img{
+     width: 55%;
+    
+    margin-left: 100px;
+
+}
+
+.glbl-cmnty-header{
     margin-top: 40px;
     font-family: 'Courier New', Courier, monospace;
     color: navy;
@@ -120,52 +163,55 @@ body{
 }
 
 
-.header5{
-    color: navy;
-
-   margin-top: 80px;
+.boxshadow-header{
+   color: rgb(145, 113, 118);
    font-family: 'Courier New', Courier, monospace;
    text-align: center;
-   
-
    font-size: 2em;
 
 }
 
 
-.borderx{
-    border-right: 5px solid navy;
+.last-boxshadow{
+ 
     padding-left: 30px;
-    box-shadow: -10px 10px 25px pink;
-    border-radius: 5px;
+    box-shadow: -20px 20px 50px pink;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
    
 }
 
 li{
-    display: inline;
-    padding: 30px 60px;
-    background-color:#71d8df ;
-    list-style: none;
-    margin: 20px;
-    color: rgb(0, 0, 0);
+   
+  display: inline;
+    list-style: none;   
+}
+
+li img{
+    background-color:rgb(112, 86, 91);
+    padding: 10px;
     border-radius: 5px;
-    font-size: 1.3em;
 }
 
 ul{
     display: flex;
+    width: 60%;
+    padding-bottom: 10px;
 }
  
  footer{
      text-align: center;
      color: white;
-     background-color: black;
-     padding-top: 10px;
-     padding-bottom: 10px;
+     background-color: rgb(24, 23, 23);
+     padding-top: 15px;
+     padding-bottom: 15px;
+    
  }
- h1 footer{}
-     font-family:initial
- }
+ 
+ small{
+     color: rgb(240, 240, 240);
+ }    
+ 
 
 
  
